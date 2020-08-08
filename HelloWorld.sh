@@ -1,14 +1,11 @@
 #!/bin/bash
-This program counts till 5 and break
-s
+This program counts till 5 and breaks
 valid=true
 count=1
 while [ $valid ]
 do
 echo $count
 if [ $count -eq 5 ];
-	echo "count $count
-	"
 then
 break
 fi
